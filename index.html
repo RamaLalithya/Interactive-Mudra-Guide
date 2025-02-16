@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Hastas Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="color:brown">Interactive Mudra Guide</h1>
+        <h2 style="color:darkblue">Nrithya with Lalithya</h2>
+        <h3 style="color:maroon">Asamyukta Hastas</h3>
+        <p style="color: black;">
+            Pathakas Tripathako Ardhapathakas Kartharimukhaha<br>
+            Mayoorakhyo Ardhachandrascha Araala Shukathundakaha<br>  
+            Mushtischa Shikharakhyascha Kapitha Katakhamukhaha<br>
+            Suchi Chandrakhala Padmakosha Sarparhirasthathaa<br>  
+            Mrigashirsha Simhamukhaha Kaangoolascha Alapadmakaha<br>
+            Chaturo Bhramaraschaiva Hamsasyo Hamsapakshakaha<br>  
+            Samdamsho Mukulaschaiva Thaamrachoodas Trisoolakaha<br> 
+            Ithyaasamyukta Hastanam Ashtavimshati reerita
+        </p>
+    </header>
+    <div id="mudra-details" class="mudra-details-container">
+        <h2>Select a Mudra to see details</h2>
+    </div>
+    <div class="audio-container">
+        <button onclick="playSloka()" class="play-button">🎵 Play Sloka</button>
+    </div>
+
+    <script>
+        const slokaAudio = new Audio("sloka.mp3.mp3");
+    
+        function playSloka() {
+            slokaAudio.play();
+        }
+    </script>
+    
+    </div>
+    <div class="mudra-container">
+        <div class="mudra-card" onclick="showDetails('pathaka')">
+            <img src="images/pathaka.png.jpg" alt="Pathaka Hasta">
+            <p>Pathaka Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('tripathaka')">
+            <img src="images/tripathaka.png.jpg" alt="Tripathaka Hasta">
+            <p>Tripathaka Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('ardhapathaka')">
+            <img src="images/ardhapathaka.png.jpg" alt="Ardhapathaka Hasta">
+            <p>Ardhapathaka Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('kartharimukha')">
+            <img src="images/kartharimukha.png.jpg" alt="Kartharimukha Hasta">
+            <p>Kartharimukha Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('mayoora')">
+            <img src="images/mayoora.png.jpg" alt="Mayoora Hasta">
+            <p>Mayoora Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('ardhachandra')">
+            <img src="images/ardhachandra.png.jpg" alt="Ardhachandra Hasta">
+            <p>Ardhachandra Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('araala')">
+            <img src="images/araala.png.jpg" alt="Araala Hasta">
+            <p>Araala Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('sukhathunda')">
+            <img src="images/sukhathunda.png.jpg" alt="Sukhathunda Hasta">
+            <p>Sukhathunda Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('musthi')">
+            <img src="images/musthi.png.jpg" alt="Musthi Hasta">
+            <p>Musthi Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('shikhara')">
+            <img src="images/shikhara.png.jpg" alt="Shikhara Hasta">
+            <p>Shikhara Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('kapitha')">
+            <img src="images/kapitha.png.jpg" alt="Kapitha Hasta">
+            <p>Kapitha Hasta</p>
+        </div>
+        <div class="mudra-card" onclick="showDetails('katakhamukha')">
+            <img src="images/katakhamukha.png.jpg" alt="Katakhamukha Hasta">
+            <p>Katakhamukha Hasta</p>
+        </div>
+         <div class="mudra-card" onclick="showDetails('suchi')">
+        <img src="images/suchi.png.jpg" alt="Suchi Hasta">
+        <p>Suchi Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('chandrakhala')">
+        <img src="images/chandrakhala.png.jpg" alt="Chandrakhala Hasta">
+        <p>Chandrakhala Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('padmakosha')">
+        <img src="images/padmakosha.png.jpg" alt="Padmakosha Hasta">
+        <p>Padmakosha Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('sarpaseersha')">
+        <img src="images/sarpaseersha.png.jpg" alt="Sarpaseersha Hasta">
+        <p>Sarpaseersha Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('mrigasirsha')">
+        <img src="images/mrigasirsha.png.jpg" alt="Mrigasirsha Hasta">
+        <p>Mrigasirsha Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('simhamukha')">
+        <img src="images/simhamukha.png.jpg" alt="Simhamukha Hasta">
+        <p>Simhamukha Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('kangoolascha')">
+        <img src="images/kangoolascha.png.jpg" alt="Kangoola Hasta">
+        <p>Kangoola Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('alapadma')">
+        <img src="images/alapadma.png.jpg" alt="Alapadma Hasta">
+        <p>Alapadma Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('chathura')">
+        <img src="images/chathura.png.jpg" alt="Chathura Hasta">
+        <p>Chathura Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('bhramara')">
+        <img src="images/bhramara.png.jpg" alt="Bhramara Hasta">
+        <p>Bhramara Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('hamsasya')">
+        <img src="images/hamsasya.png.jpg" alt="Hamsasya Hasta">
+        <p>Hamsasya Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('hamsapaksha')">
+        <img src="images/hamsapaksha.png.jpg" alt="Hamsapaksha Hasta">
+        <p>Hamsapaksha Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('samdamsha')">
+        <img src="images/samdamsha.png.jpg" alt="Samdamsha Hasta">
+        <p>Samdamsha Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('mukula')">
+        <img src="images/mukula.png.jpg" alt="Mukula Hasta">
+        <p>Mukula Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('thamrachooda')">
+        <img src="images/thamrachooda.png.jpg" alt="Thamrachooda Hasta">
+        <p>Thamrachooda Hasta</p>
+    </div>
+    <div class="mudra-card" onclick="showDetails('trishoola')">
+        <img src="images/trishoola.png.jpg" alt="Trishoola Hasta">
+        <p>Trishoola Hasta</p>
+    </div>
+</div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

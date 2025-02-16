@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f5f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d4a373;
+    color: white;
+    padding: 20px;
+}
+.audio-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.play-button, .pause-button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.play-button:hover, .pause-button:hover {
+    background-color: #d43f00;
+}
+.mudra-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.mudra-card {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mudra-card img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.mudra-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mudra-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+p {
+    color: black;
+}
+.mudra-text {
+    color: black;
+    font-weight: bold;
+    line-height: 1.8; /* Increases space between lines */
+}
+.mudra-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center align cards */
+    padding: 20px;
+}
+
+.mudra-card {
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mudra-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.mudra-card p {
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.mudra-card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.info-box h2 {
+    margin: 0;
+    color: #8b5e3b;
+}
+
+.info-box p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #d4a373;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b07b50;
+}
