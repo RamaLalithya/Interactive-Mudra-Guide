@@ -15,6 +15,12 @@ The **Interactive Mudra Guide** is a web-based application designed to educate u
 - **HTML** - Structure of the web page
 - **CSS** - Styling and animations
 - **JavaScript** - Interactivity and event handling
+## 🎥 Demo
+🚀 Live Demo: (https://ramalalithya.github.io/Interactive-Mudra-Guide/) 
+![Demo GIF](demo.gif.gif)
+
+## 📸 Screenshots
+![App Screenshot](screenshot.png.png)
 
 ## 🚀 How to Use
 
